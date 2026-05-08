@@ -4,6 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "register": "node src/register-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +15,8 @@
   "dependencies": {
     "discord.js": "^14.11.0",
     "dotenv": "^16.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
     "nodemon": "^2.0.22"
   }
 }
